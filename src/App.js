@@ -7,6 +7,7 @@ import { Songs } from './Context';
 import DataSongs from "./Data/songs.json";
 import { useState } from "react";
 
+
 function App() {
   const [song, setSong] = useState(DataSongs[0])
   const handleSetSong = (idSong) => {
